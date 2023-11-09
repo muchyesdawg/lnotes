@@ -1,0 +1,46 @@
+\documentclass{article} % Document class
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{tikz-among-us}
+\title{My bs notes}
+\author{Makus}
+\date{\today}
+
+\begin{document} % Begin document content
+\maketitle
+% \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
+
+
+\tableofcontents
+
+\section{Introduction}
+    \begin{center}
+        just random ass notes, separted by sections.
+    \end{center}
+\section{math}
+    \subsection*{bases}
+        given  \begin{center}
+            $n$ = base of number representation\\
+            $x$ = number that is represented in base $n$
+        \end{center}
+        then $\dfrac{x}{n}$ shiftes everything in $x$ towards the left by one and $x\cdot n$ shiftes everything to the right.
+\section{bit shit}
+\subsection{bitwise operator quirks?}
+    In C++, every number is represented in binary, or base 2.
+    
+    \begin{verbatim}
+        x<<1
+    \end{verbatim}
+\subsection{IEEE 754}
+    This is how floats in C++ are stored. Floats are stored in 32 bit. the first bit is sign.
+    The second to ninth bit is exponent, and the 10th to 32th bit is the mantissa. the exponent has
+    an offset of 127, because it needs negative exponents.
+    \begin{equation}
+        E = x^{n-127}
+    \end{equation}
+    The mantissa is used to denote the 
+
+
+\section{Newton's iteration}
+
+\end{document} % End document
