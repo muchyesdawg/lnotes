@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699493385 "h:/project/c++Test/notes/test.tex" "test.pdf" "test" 1699493386 0
+["pdflatex"] 1699494047 "h:/project/c++Test/notes/math.tex" "math.pdf" "math" 1699494048 0
   "C:/Users/Markus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699490638 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Markus/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699417299 24198539 b79edb6c47dffd481cdb3aceade5309d ""
   "H:/OProgramFiles/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -119,13 +119,13 @@
   "H:/OProgramFiles/MiKTeX/tex/latex/tools/calc.sty" 1686255640 10214 75bcd28386d4b4b9f28b2aff3cea7b24 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
-  "h:/project/c++Test/notes/test.tex" 1699493163 1405 6cc3ead380e747374794ffae22c59d69 ""
-  "test.aux" 1699493385 644 8ea278fb0fe87c97e54be2608c20f259 "pdflatex"
-  "test.tex" 1699493163 1405 6cc3ead380e747374794ffae22c59d69 ""
-  "test.toc" 1699493385 366 ce72fcf1e119f9f9932f5e5ea7dccc8f "pdflatex"
+  "h:/project/c++Test/notes/math.tex" 1699494046 1883 c24a714647b1ccd8a10b6cae65f91f6c ""
+  "math.aux" 1699494048 742 1a1118808516baec9ea691435faa9571 "pdflatex"
+  "math.tex" 1699494046 1883 c24a714647b1ccd8a10b6cae65f91f6c ""
+  "math.toc" 1699494048 423 c93f07472b6072cb753101b74e02d1c4 "pdflatex"
   (generated)
-  "test.aux"
-  "test.log"
-  "test.pdf"
-  "test.toc"
+  "math.aux"
+  "math.log"
+  "math.pdf"
+  "math.toc"
   (rewritten before read)
