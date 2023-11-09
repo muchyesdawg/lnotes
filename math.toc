@@ -2,6 +2,7 @@
 \contentsline {section}{\numberline {2}math}{1}{}%
 \contentsline {subsection}{\numberline {2.1}general}{1}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}bases}{1}{}%
+\contentsline {paragraph}{\numberline {2.1.1.1} base 2 scientific notation }{2}{}%
 \contentsline {subsection}{\numberline {2.2}calculus}{2}{}%
 \contentsline {subsubsection}{\numberline {2.2.1}Newton's iteration}{2}{}%
 \contentsline {section}{\numberline {3}Computer Science}{2}{}%

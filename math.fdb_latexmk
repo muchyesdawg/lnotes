@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699503392 "h:/project/c++Test/notes/math.tex" "math.pdf" "math" 1699503393 0
+["pdflatex"] 1699504143 "h:/project/c++Test/notes/math.tex" "math.pdf" "math" 1699504144 0
   "C:/Users/Markus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699501224 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Markus/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699417299 24198539 b79edb6c47dffd481cdb3aceade5309d ""
   "H:/OProgramFiles/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -113,13 +113,14 @@
   "H:/OProgramFiles/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "H:/OProgramFiles/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/tikz-among-us/tikz-among-us.sty" 1623968306 38552 3a814ea1f040d31ba0a34c5397f0bab6 ""
+  "H:/OProgramFiles/MiKTeX/tex/latex/titlesec/titlesec.sty" 1699094857 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/tools/calc.sty" 1686255640 10214 75bcd28386d4b4b9f28b2aff3cea7b24 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
-  "h:/project/c++Test/notes/math.tex" 1699503391 1878 7cef6bc9d17b0ac32e5a9cca2de96d0c ""
-  "math.aux" 1699503393 1077 395a96cf5e6a0dca487567ea3775c5b8 "pdflatex"
-  "math.tex" 1699503391 1878 7cef6bc9d17b0ac32e5a9cca2de96d0c ""
-  "math.toc" 1699503393 635 0906697f2c978d8666a8bdb47a36c3ef "pdflatex"
+  "h:/project/c++Test/notes/math.tex" 1699504141 2151 e7791645fdeaf3a80fc1c3bb163dc0e4 ""
+  "math.aux" 1699504144 1201 3aaff81ab610376d7603f5b1a7229ab9 "pdflatex"
+  "math.tex" 1699504141 2151 e7791645fdeaf3a80fc1c3bb163dc0e4 ""
+  "math.toc" 1699504144 718 fb054e85c992c691b6906f1366af8d2e "pdflatex"
   (generated)
   "math.aux"
   "math.log"

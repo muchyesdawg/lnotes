@@ -1,6 +1,7 @@
 \documentclass{article} % Document class
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{titlesec}
 \usepackage{tikz-among-us}
 \title{My bs notes}
 \author{Makus}
@@ -10,6 +11,13 @@
 \maketitle
 % \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
 
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \tableofcontents
 
@@ -25,6 +33,7 @@
             $x$ = number that is represented in base $n$,
         \end{center}
         Then $\dfrac{x}{n}$ shiftes everything in $x$ towards the left by one and $x\cdot n$ shiftes everything to the right.
+            \paragraph{ base 2 scientific notation }
     \subsection{calculus}
         \subsubsection{Newton's iteration}
 \section{Computer Science}

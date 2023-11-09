@@ -135,6 +135,8 @@ INPUT H:\OProgramFiles\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT H:\OProgramFiles\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT H:\OProgramFiles\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT H:\OProgramFiles\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT H:\OProgramFiles\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT H:\OProgramFiles\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT H:\OProgramFiles\MiKTeX\tex\latex\tikz-among-us\tikz-among-us.sty
 INPUT H:\OProgramFiles\MiKTeX\tex\latex\tikz-among-us\tikz-among-us.sty
 INPUT H:\OProgramFiles\MiKTeX\tex\latex\xifthen\xifthen.sty

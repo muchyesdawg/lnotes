@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  8 NOV 2023 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  8 NOV 2023 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,7 +298,18 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count292
  (H:\OProgramFiles\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (H:\OProgramFiles\MiKTeX\tex/latex/tikz-among-us\tikz-among-us.sty
+))) (H:\OProgramFiles\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen258
+\ttl@minus=\dimen259
+\ttl@toksa=\toks35
+\titlewidth=\dimen260
+\titlewidthlast=\dimen261
+\titlewidthfirst=\dimen262
+) (H:\OProgramFiles\MiKTeX\tex/latex/tikz-among-us\tikz-among-us.sty
 Package: tikz-among-us 2020-10-23 Custom Package for my AmongUs sketch -- FHZ -- Version 1.1.0
  (H:\OProgramFiles\MiKTeX\tex/latex/xifthen\xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
@@ -306,14 +317,14 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count293
 \calc@Bcount=\count294
-\calc@Adimen=\dimen258
-\calc@Bdimen=\dimen259
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Adimen=\dimen263
+\calc@Bdimen=\dimen264
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count295
-\calc@Cskip=\skip55
+\calc@Cskip=\skip57
 ) (H:\OProgramFiles\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (H:\OProgramFiles\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
@@ -327,37 +338,37 @@ File: pgflibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (H:\OProgramFiles\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
-\l__pdf_internal_box=\box64
+\l__pdf_internal_box=\box65
 ) (math.aux)
 \openout1 = `math.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  (H:\OProgramFiles\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count297
-\scratchdimen=\dimen260
-\scratchbox=\box65
+\scratchdimen=\dimen265
+\scratchbox=\box66
 \nofMPsegments=\count298
 \nofMParguments=\count299
-\everyMPshowfont=\toks35
+\everyMPshowfont=\toks36
 \MPscratchCnt=\count300
-\MPscratchDim=\dimen261
+\MPscratchDim=\dimen266
 \MPnumerator=\count301
 \makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks36
+\everyMPtoPDFconversion=\toks37
 ) (H:\OProgramFiles\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -376,15 +387,15 @@ L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12933 strings out of 474704
- 262863 string characters out of 5758002
- 1930547 words of memory out of 5000000
- 34775 multiletter control sequences out of 15000+600000
+ 13244 strings out of 474704
+ 267021 string characters out of 5758002
+ 1931547 words of memory out of 5000000
+ 35082 multiletter control sequences out of 15000+600000
  563620 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,436b,201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,6n,107p,431b,201s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (2 pages, 105299 bytes).
+Output written on math.pdf (2 pages, 105805 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
