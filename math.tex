@@ -18,37 +18,33 @@
         just random ass notes, separted by sections.
     \end{center}
 \section{math}
-    \subsection{bases}
+    \subsection{general}
+        \subsubsection{bases}
         given  \begin{center}
             $n$ = base of number representation\\
             $x$ = number that is represented in base $n$,
         \end{center}
         Then $\dfrac{x}{n}$ shiftes everything in $x$ towards the left by one and $x\cdot n$ shiftes everything to the right.
-\section{bit shit}
-\subsection{bitwise operator quirks?}
-    In C++, every number is represented in binary, or base 2. Thus if anyone were to divide a number by two, then
-    \begin{verbatim}
-        x=x>>1;//shifting towards the right
-    \end{verbatim}
-    works the same, but is faster. it also rounds up. Conversely, if anyone were to multiply by two, then 
-    \begin{verbatim}
-        x=x<<1;//shifting towards the left
-    \end{verbatim}
-    does the same.
-\subsection{IEEE 754}
-    This is how floats in C++ are stored. Floats are stored in 32 bit. the first bit is sign.
-    The second to ninth bit is exponent, and the 10th to 32th bit is the mantissa. the exponent has
-    an offset of 127, because it needs negative exponents.
-    \begin{equation}
-        E = x^{n-127}
-    \end{equation}
-    This can also be represented in the following one liner code (assuming the float has been stored into a long $x$with nothing changed)
-    \begin{verbatim}
-x = 
-    \end{verbatim}
-    The mantissa is used to denote the 
+    \subsection{calculus}
+        \subsubsection{Newton's iteration}
+\section{Computer Science}
+will be using c++ for every example
+    \subsection{bit shit}
+        \subsubsection{bitwise operator quirks?}
+            In C++, every number is represented in binary, or base 2. Thus if anyone were to divide a number by two, then
+            \begin{verbatim}
+                x=x>>1;//shifting towards the right
+            \end{verbatim}
+            works the same, but is faster. it also rounds up. Conversely, if anyone were to multiply by two, then 
+            \begin{verbatim}
+                x=x<<1;//shifting towards the left
+            \end{verbatim}
+            does the same.
+        \subsubsection{IEEE 754}
+            This is how floats in C++ are stored. Floats are stored in 32 bit. the first bit is sign.
+            The second to ninth bit is exponent, and the 10th to 32th bit is the mantissa. the exponent has
+            an offset of 127, because it needs negative exponents. The mantissa, 23 bits, 
 
 
-\section{Newton's iteration}
 
 \end{document} % End document
