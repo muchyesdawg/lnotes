@@ -42,10 +42,10 @@
         \subsubsection{logrithmic base 2}
         when taking $\log_2(1+x)$ where $0<x \leq1$, the output is approx. $x$.\\
         \begin{tikzpicture}[domain=0:1]
-            \draw[very thin,color = gray](-0.1,-1.1) grid(2,1); 
+            \draw[very thin,color = gray](-0.1,-1.1) grid(1,1); 
             \draw[->] (-0.2,-1) -- (2.25,-1) node[right] {$x$};
             \draw[->] (0,-1.2) -- (0,1.25) node[above] {$f(x)$};
-            \draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
+            \draw plot [color=red,domain=0.1:1,samples=100] (\x,{log2(\x)});
         \end{tikzpicture}
     \subsection{calculus}
         \subsubsection{Newton's iteration}
