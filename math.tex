@@ -60,12 +60,22 @@
             if$f(x)=\log_2(x+1)$, then $$f'(x)=\dfrac{1}{(x+1)\ln(2)}$$since the average rate of change is $$\dfrac{f(1)-f(0)}{1-0}=1$$
             then to get $\mu$, the steps are $$f'(c)=\dfrac{1}{(c+1)\ln(2)}=1$$ $$1=(c+1)\ln(2)$$ $$c=\dfrac{1}{\ln(2)}-1$$
             solving for c gives us the point on $f(x)$ where $f'(c)=1$
+            \\given $c=\dfrac{1}{\ln(2)}-1$, then we can graph the tangent line with the point slope form.\\ $y-f(c)=f'(c)(x-c)$, or
+            $$y=f(c)+f'(c)(x-c)$$ or $$y=f(c)-c+x$$ since $f'(c)=1$. since $f(c)-c$ is constant, it would be a straight line, modeled by the green line in the following
+            the green line shows the tangent line with least error throughout. In order to find the overall average error, we can divide the sum of y intercepts by two in order to get the value of $\mu$, modeled by the blue line.
+            \begin{tikzpicture}
+                \begin{axis}[xlabel={$x$},ylabel={$f(x)$},xmin=0, xmax=1,ymin=0,ymax=1,samples=1000,grid=major]
+                    \addplot[color=red]{log10(x+1)/log10(2)};
+                    \addplot[color=green]{x-(1/ln(2)-1)+log10(1/ln(2))/log10(2)} node[right]{$x+c$};
+                    \addplot[color=blue]{x-((1/ln(2)-1)-log10(1/ln(2))/log10(2))/2};
+                \end{axis}
+            \end{tikzpicture}
+            red is $\log_2(x+1)$\\
+            green is $x+c-f(c)$, where $f(c)=\log_2(x+1)$\\
+            blue is $x+\mu$, where $\mu=\dfrac{f(c)-c}{2}$
         \end{center}
-        \begin{tikzpicture}[
-            
-            ]
-        \end{tikzpicture}
-    \subsection{calculus}
+
+            \subsection{calculus}
         \subsubsection{Newton's iteration}
         \subsubsection{Mean Value Theorem} % (fold)
         \label{ssub:Mean Value Theorem}

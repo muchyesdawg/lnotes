@@ -4,16 +4,16 @@
 \contentsline {subsection}{\numberline {2.1}general}{2}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}bases}{2}{}%
 \contentsline {subsubsection}{\numberline {2.1.2}logrithmic base 2}{2}{}%
-\contentsline {subsection}{\numberline {2.2}calculus}{3}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Newton's iteration}{3}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Mean Value Theorem}{3}{}%
-\contentsline {section}{\numberline {3}Computer Science}{3}{}%
-\contentsline {subsection}{\numberline {3.1}bit shit}{3}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}bitwise operators to stop forgetting}{3}{}%
-\contentsline {paragraph}{\numberline {3.1.1.1}bitwise operator quirks?}{3}{}%
+\contentsline {subsection}{\numberline {2.2}calculus}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Newton's iteration}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Mean Value Theorem}{4}{}%
+\contentsline {section}{\numberline {3}Computer Science}{4}{}%
+\contentsline {subsection}{\numberline {3.1}bit shit}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}bitwise operators to stop forgetting}{4}{}%
+\contentsline {paragraph}{\numberline {3.1.1.1}bitwise operator quirks?}{4}{}%
 \contentsline {subsubsection}{\numberline {3.1.2}IEEE 754}{4}{}%
 \contentsline {paragraph}{\numberline {3.1.2.1}overview}{4}{}%
-\contentsline {paragraph}{\numberline {3.1.2.2}nitty griddy}{4}{}%
-\contentsline {subsection}{\numberline {3.2}optimizations}{4}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}division}{4}{}%
+\contentsline {paragraph}{\numberline {3.1.2.2}nitty griddy}{5}{}%
+\contentsline {subsection}{\numberline {3.2}optimizations}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}division}{5}{}%
 \contentsline {section}{\numberline {4}physics}{5}{}%
