@@ -1,6 +1,6 @@
 \documentclass{article} % Document class
 \usepackage{amsmath}
-\usepackage{tikz}
+%\usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{titlesec}
 \title{My bs notes}
@@ -57,17 +57,19 @@
         \\but by adding $\mu$ to this, we can lower the amount of error to the average.
         to find $\mu$, we can do a mean value theorem stated in calculus portion to find $\mu$, which can be gotten from
         \begin{center}
-            if $$f(x) = log_2(x+1)$$ and $$f'(c) = \dfrac{f(b)-f(a)}{b-a}$$
-            \\where a=0 and b = 1, then:\\% //TODO: FIGURE OUT HOW 0.0403 IS GOTTEN TO MINIMIZE ERROR
-            $$\mu = \dfrac{f(c)-c}{2}$$
-            
+            if$f(x)=\log_2(x+1)$, then $$f'(x)=\dfrac{1}{(x+1)\ln(2)}$$since the average rate of change is $$\dfrac{f(1)-f(0)}{1-0}=1$$
+            then to get $\mu$, the steps are $$f'(c)=\dfrac{1}{(c+1)\ln(2)}=1$$ $$1=(c+1)\ln(2)$$ $$c=\dfrac{1}{\ln(2)}-1$$
+            solving for c gives us the point on $f(x)$ where $f'(c)=1$
         \end{center}
+        \begin{tikzpicture}[
+            
+            ]
+        \end{tikzpicture}
     \subsection{calculus}
         \subsubsection{Newton's iteration}
         \subsubsection{Mean Value Theorem} % (fold)
         \label{ssub:Mean Value Theorem}
             Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
-        
         % subsubsection Mean Value Theorem (end)
 \section{Computer Science}\label{Computer Science}
 will be using c++ for every example
@@ -119,14 +121,10 @@ will be using c++ for every example
             \end{verbatim}
             but in order to optimize this, we will use 
 \section{physics}
-
-
 \begin{tikzpicture}[domain=0:4]
   \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
-
   \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
   \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
-
   \draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
   % \x r means to convert '\x' from degrees to _r_adians:
   \draw[color=blue]   plot (\x,{sin(\x r)})    node[right] {$f(x) = \sin x$};
