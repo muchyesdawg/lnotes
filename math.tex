@@ -1,5 +1,5 @@
 \documentclass{article} % Document class
-\usepackage{amsmath}
+\usepackage{amsmath, bm}
 %\usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{titlesec}
@@ -74,9 +74,18 @@
             green is $x+c-f(c)$, where $f(c)=\log_2(x+1)$\\
             blue is $x+\mu$, where $\mu=\dfrac{f(c)-c}{2}$
         \end{center}
-
             \subsection{calculus}
         \subsubsection{Newton's iteration}
+            Newton's iteration is a way to approximate the root of a function, given $\dfrac{\Delta y}{\Delta x}$ at $f(x)$.
+            \begin{center}
+                \begin{tikzpicture}[domain=0:4.71238898038]
+                    \draw[very thin, color=gray](-0.1,-1.1)grid (4.8,4.8);
+                    \draw[->] (-0.2,0) -- (4.8,0) node[right] {$x$};
+                    \draw[->] (0,-1.10) -- (0,4.8) node[right] {$y$};
+                    \draw[color=blue]plot(\x,{sin(\x r)})node[right]{$\sin(x)$};
+                    
+                \end{tikzpicture}
+            \end{center}
         \subsubsection{Mean Value Theorem} % (fold)
         \label{ssub:Mean Value Theorem}
             Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
@@ -131,13 +140,33 @@ will be using c++ for every example
             \end{verbatim}
             but in order to optimize this, we will use 
 \section{physics}
-\begin{tikzpicture}[domain=0:4]
-  \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
-  \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
-  \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
-  \draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
-  % \x r means to convert '\x' from degrees to _r_adians:
-  \draw[color=blue]   plot (\x,{sin(\x r)})    node[right] {$f(x) = \sin x$};
-  \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
-\end{tikzpicture}
+    \subsection{Unit 4}
+        \subsubsection{Work}
+            \paragraph{definition}
+                A force that causes an object to move. Units is $J$, $Joules$.
+            \paragraph{rules}
+                there are three rules for work to exist.
+                \begin{itemize}
+                    \item force must be applied
+                    \item there must be a displacement
+                    \item there must be a direction
+                \end{itemize}
+            \paragraph{equations}
+                $$W=fd$$
+                $$W=fd\cos(\theta)$$
+                $$P=\dfrac{\Delta w}{t}$$
+                \begin{center} where $P$ is power \end{center}
+                $$K=\frac{mv^2}{2}$$
+        \subsubsection{Energy}
+            \paragraph{Energy}
+                the ability to do work. Units is $J$, $Joules$. $w=e$
+            \paragraph{kinetic energy}
+                object with velocity. $K$ represents kinetic energy.
+                $$K=\frac{mv^2}{2}$$ 
+            \paragraph{gravitational potential energy}%
+            \label{par:gravitational potential energy}
+                stored energy associated with an object's height above some reference point.
+                $$U_g=mgy$$
+                
+
 \end{document} % End document
