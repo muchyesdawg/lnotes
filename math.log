@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.8)  14 NOV 2023 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.8)  15 NOV 2023 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,16 +99,31 @@ Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgfplots/pgfplots.revision
-.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def
+\pgfutil@abb=\box53
+)
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty 
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks23
 )
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -124,28 +139,9 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
-(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
-on.tex
-\pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen152
-\pgfutil@tempdimb=\dimen153
-)
-(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
-x.def
-\pgfutil@abb=\box53
-)
-(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
-tex (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty 
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
 e.tex
@@ -436,6 +432,20 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 raries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/libraries/pgflibraryar
+rows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen258
+))
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgfplots/pgfplots.revision
+.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgfplots/pgfplotscore.code
@@ -443,7 +453,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \t@pgfplots@toka=\toks35
 \t@pgfplots@tokb=\toks36
 \t@pgfplots@tokc=\toks37
-\pgfplots@tmpa=\dimen258
+\pgfplots@tmpa=\dimen259
 \c@pgfplots@coordindex=\count293
 \c@pgfplots@scanlineindex=\count294
 
@@ -521,14 +531,14 @@ de.tex)
 raries/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/modules/pgfmoduledecor
 ations.code.tex
-\pgfdecoratedcompleteddistance=\dimen259
-\pgfdecoratedremainingdistance=\dimen260
-\pgfdecoratedinputsegmentcompleteddistance=\dimen261
-\pgfdecoratedinputsegmentremainingdistance=\dimen262
-\pgf@decorate@distancetomove=\dimen263
+\pgfdecoratedcompleteddistance=\dimen260
+\pgfdecoratedremainingdistance=\dimen261
+\pgfdecoratedinputsegmentcompleteddistance=\dimen262
+\pgfdecoratedinputsegmentremainingdistance=\dimen263
+\pgf@decorate@distancetomove=\dimen264
 \pgf@decorate@repeatstate=\count298
-\pgfdecorationsegmentamplitude=\dimen264
-\pgfdecorationsegmentlength=\dimen265
+\pgfdecorationsegmentamplitude=\dimen265
+\pgfdecorationsegmentlength=\dimen266
 )
 \tikz@lib@dec@box=\box64
 )
@@ -543,12 +553,12 @@ pgflibrarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgfplots/libs/tikzlibraryp
 gfplots.contourlua.code.tex)
 \pgfplots@numplots=\count299
-\pgfplots@xmin@reg=\dimen266
-\pgfplots@xmax@reg=\dimen267
-\pgfplots@ymin@reg=\dimen268
-\pgfplots@ymax@reg=\dimen269
-\pgfplots@zmin@reg=\dimen270
-\pgfplots@zmax@reg=\dimen271
+\pgfplots@xmin@reg=\dimen267
+\pgfplots@xmax@reg=\dimen268
+\pgfplots@ymin@reg=\dimen269
+\pgfplots@ymax@reg=\dimen270
+\pgfplots@zmin@reg=\dimen271
+\pgfplots@zmax@reg=\dimen272
 )
 (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
 raries/tikzlibraryplotmarks.code.tex
@@ -563,12 +573,12 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box65
 \beforetitleunit=\skip53
 \aftertitleunit=\skip54
-\ttl@plus=\dimen272
-\ttl@minus=\dimen273
+\ttl@plus=\dimen273
+\ttl@minus=\dimen274
 \ttl@toksa=\toks42
-\titlewidth=\dimen274
-\titlewidthlast=\dimen275
-\titlewidthfirst=\dimen276
+\titlewidth=\dimen275
+\titlewidthlast=\dimen276
+\titlewidthfirst=\dimen277
 )
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
 ef
@@ -578,31 +588,31 @@ File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 ) (./math.aux)
 \openout1 = `math.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count301
-\scratchdimen=\dimen277
+\scratchdimen=\dimen278
 \scratchbox=\box67
 \nofMPsegments=\count302
 \nofMParguments=\count303
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count304
-\MPscratchDim=\dimen278
+\MPscratchDim=\dimen279
 \MPnumerator=\count305
 \makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks44
@@ -621,7 +631,7 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 10.
+ on input line 11.
 
 (./math.toc)
 \tf@toc=\write4
@@ -1543,13 +1553,13 @@ L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23472 strings out of 475729
- 617932 string characters out of 5782024
+ 24110 strings out of 475729
+ 634903 string characters out of 5782024
  1948530 words of memory out of 5000000
- 45110 multiletter control sequences out of 15000+600000
+ 45742 multiletter control sequences out of 15000+600000
  568866 words of font info for 73 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 99i,10n,103p,721b,2060s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,107p,721b,2060s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/makus/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/e
 c/tcrm1000.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/publi
@@ -1563,7 +1573,7 @@ st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023basic/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023basic
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (7 pages, 175546 bytes).
+Output written on math.pdf (7 pages, 179735 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream

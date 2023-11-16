@@ -1,6 +1,7 @@
 \documentclass{article} % Document class
 \usepackage{amsmath, bm}
-%\usepackage{tikz}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
 \usepackage{pgfplots}
 \usepackage{titlesec}
 \title{My bs notes}
@@ -67,7 +68,7 @@
                 \begin{axis}[xlabel={$x$},ylabel={$f(x)$},xmin=0, xmax=1,ymin=0,ymax=1,samples=1000,grid=major]
                     \addplot[color=red]{log10(x+1)/log10(2)};
                     \addplot[color=green]{x-(1/ln(2)-1)+log10(1/ln(2))/log10(2)} node[right]{$x+c$};
-                    \addplot[color=blue]{x-((1/ln(2)-1)-log10(1/ln(2))/log10(2))/2};
+                    \addplot[color=blue]{x-((1/ln(2)-1)-log10(1/ln(2))/log10(2))/2}
                 \end{axis}
             \end{tikzpicture}
             red is $\log_2(x+1)$\\
@@ -76,13 +77,14 @@
         \end{center}
             \subsection{calculus}
         \subsubsection{Newton's iteration}
-            Newton's iteration is a way to approximate the root of a function, given $\dfrac{\Delta y}{\Delta x}$ at $f(x)$.
+            Newton's iteration is a way to approximate the root of a function, given $\dfrac{\Delta y}{\Delta x}$ at $f(x)$. The formula for newton's iteration is $$c=\frac{f'(x)}{f(x)}$$
             \begin{center}
-                \begin{tikzpicture}[domain=0:4.71238898038]
-                    \draw[very thin, color=gray](-0.1,-1.1)grid (4.8,4.8);
-                    \draw[->] (-0.2,0) -- (4.8,0) node[right] {$x$};
-                    \draw[->] (0,-1.10) -- (0,4.8) node[right] {$y$};
-                    \draw[color=blue]plot(\x,{sin(\x r)})node[right]{$\sin(x)$};
+                \begin{tikzpicture}
+                    %\draw[step=1cm,gray,very thin](-0.1,-1.1)grid(5.9,4.9);
+                    \draw[thick,->](0,0) -- (6,0) node[anchor=north]{$x$};
+                    \draw[thick,->](0,-3.5) -- (0,3.5) node[anchor=east]{$x$};
+                    \draw[thick,<-](0,-3.5) -- (0,3.5);
+                    \draw[scale=1.5,smooth,variable=\x,color=black] plot({\x},{sin(\x r)}) node[right]{$\sin(x)$, rad};
                     
                 \end{tikzpicture}
             \end{center}
