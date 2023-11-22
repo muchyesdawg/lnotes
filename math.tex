@@ -4,6 +4,7 @@
 \usetikzlibrary{arrows}
 \usepackage{pgfplots}
 \usepackage{titlesec}
+\pgfplotsset{compat=1.18}
 \title{My bs notes}
 \author{Makus}
 \date{\today}
@@ -68,7 +69,7 @@
                 \begin{axis}[xlabel={$x$},ylabel={$f(x)$},xmin=0, xmax=1,ymin=0,ymax=1,samples=1000,grid=major]
                     \addplot[color=red]{log10(x+1)/log10(2)};
                     \addplot[color=green]{x-(1/ln(2)-1)+log10(1/ln(2))/log10(2)} node[right]{$x+c$};
-                    \addplot[color=blue]{x-((1/ln(2)-1)-log10(1/ln(2))/log10(2))/2}
+                    \addplot[color=blue]{x-((1/ln(2)-1)-log10(1/ln(2))/log10(2))/2};
                 \end{axis}
             \end{tikzpicture}
             red is $\log_2(x+1)$\\
@@ -76,21 +77,54 @@
             blue is $x+\mu$, where $\mu=\dfrac{f(c)-c}{2}$
         \end{center}
             \subsection{calculus}
-        \subsubsection{Newton's iteration}
-            Newton's iteration is a way to approximate the root of a function, given $\dfrac{\Delta y}{\Delta x}$ at $f(x)$. The formula for newton's iteration is $$c=\frac{f'(x)}{f(x)}$$
-            \begin{center}
-                \begin{tikzpicture}
-                    %\draw[step=1cm,gray,very thin](-0.1,-1.1)grid(5.9,4.9);
-                    \draw[thick,->](0,0) -- (6,0) node[anchor=north]{$x$};
-                    \draw[thick,->](0,-3.5) -- (0,3.5) node[anchor=east]{$x$};
-                    \draw[thick,<-](0,-3.5) -- (0,3.5);
-                    \draw[scale=1.5,smooth,variable=\x,color=black] plot({\x},{sin(\x r)}) node[right]{$\sin(x)$, rad};
-                    
-                \end{tikzpicture}
-            \end{center}
-        \subsubsection{Mean Value Theorem} % (fold)
-        \label{ssub:Mean Value Theorem}
-            Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
+            this section will follow the order in which Calculus BC is taught, with first half from start of school to optimization problems, and second half being from integration to everything else.
+                \subsubsection{First Half}
+                    \paragraph{Mean Value Theorem} % (fold)
+                    \label{ssub:Mean Value Theorem}
+                            Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
+                \subsubsection{Second Half}
+                    \paragraph{Integration}
+                        it is the inverse of differentiation, much like addition and subtraction. This process is denoted with the equation below.
+                        $$\int f'(x)dx = f(x)$$
+                        This shows the process of integration. If something isn't integratable, then U-substitution can be used.
+                    \paragraph{U substitution}
+                        A variable can be used to replace a portion of a function. How this will work is:
+                        \begin{enumerate}
+                            \item Substitute a part of the function as u.
+                            \item Where $u = f(x)$, the derivative would be $\dfrac{du}{dx} = f'(x)$, or $du = f'(x)dx$
+                            \item Isolate dx an whatever way needed, then replace it back into the original function, so that the integral will be in terms of u (meaning it would be $\int du$)
+                            \item After integrating, replace $u$ with $f(x)$
+                        \end{enumerate}
+                        Following these steps would look something like:
+                        \begin{align*}
+                            \int \dfrac{x}{\sqrt{1-4x^2}}dx \hspace{30px}
+                            u &= 1-4x^2\\
+                            \dfrac{du}{dx} &= 8x\\
+                            du&=8xdx \\
+                            \int \dfrac{1}{\sqrt{u}}du \hspace{80px}\\
+                            \int u^{-1/2}du \hspace{70px}\\
+                            \int u^{-\frac{1}{2}}du = \dfrac{u^{\frac{1}{2}}}{\frac{1}{2}}+c\hspace{30px}\\
+                            2(1-4x^2)^{\frac{1}{2}}+c\hspace*{50px}
+                        \end{align*}
+                    \paragraph{Definite Integrals}
+                        definite integrals output the area beneath the curve of the function, with the bounds of $\alpha$ and $\beta$, where $\alpha<\beta$. Notation denoted below:
+                        $$\int_{\alpha}^{\beta}f'(x) dx = [f(x)]^{x=\alpha}_{x=\beta}$$ 
+                        if $\alpha$ and $\beta$ are switched, then:
+                        $$\int_{\beta}^{\alpha}f'(x) dx = -[f(x)]^{x=\alpha}_{x=\beta}$$
+                        some more properties include:
+                        \begin{enumerate}
+                            \item $\int ^{\alpha}_{\alpha}f(x)dx = 0$
+                            \item $\int _{\alpha}^{\beta}cf(x)dx =c\int _{\alpha}^{\beta}f(x)dx$(including negative numbers)
+                            \item $\int _{\alpha}^{\beta}(f(x)\pm g(x))dx = \int _{\alpha}^{\beta}f(x)dx\pm \int _{\alpha}^{\beta} g(x)dx$
+                            \item $\int _{\alpha}^{\beta}(f(x)dx)+\int ^{\gamma}_{\alpha}(f(x)dx)=\int ^{\gamma}_{\alpha}(f(x)dx)$
+                            \item $\int ^{\alpha}_{-\alpha}f(x)dx=2\int ^{\alpha}_{0}f(x)dx$ assuming f(x) is even
+                            \item $\int ^{\alpha}_{-\alpha}f(x)dx=0$ assuming f(x) is odd
+                        \end{enumerate}
+                    \paragraph{Fundamental Theorem of Calculus part 1}
+                        If $f$ is continuous on $[a,b]$, then the following would be true:
+                        \begin{equation}
+                            \int^\beta_\alpha f'(x)dx = [f(x)]^{x=\beta}_{x=\alpha}=f(b)-f(a)
+                        \end{equation}
         % subsubsection Mean Value Theorem (end)
 \section{Computer Science}\label{Computer Science}
 will be using c++ for every example
@@ -135,12 +169,6 @@ will be using c++ for every example
                 \end{verbatim}
                 assuming the variables i and o are unsigned longs.
     \subsection{optimizations}
-        \subsubsection{division}
-            Since so much work has been done on addition subtraction and multiplication, the only real operation that needs change is division
-            here, we will focus mostly on floats. A really easy way is to just \begin{verbatim}
-                x=x/y;
-            \end{verbatim}
-            but in order to optimize this, we will use 
 \section{physics}
     \subsection{Unit 4}
         \subsubsection{Work}
