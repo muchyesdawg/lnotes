@@ -33,7 +33,7 @@
     \begin{center}
         i is input\\ o is output
     \end{center}
-    unlesss stated otherwise.
+    unless stated otherwise.
 \section{math}
     \subsection{general}
         \subsubsection{bases}
@@ -86,7 +86,26 @@
                     \paragraph{Integration}
                         it is the inverse of differentiation, much like addition and subtraction. This process is denoted with the equation below.
                         $$\int f'(x)dx = f(x)$$
-                        This shows the process of integration. If something isn't integratable, then U-substitution can be used.
+                        This shows the process of integration. A basic integration technique is Riemann sums.
+                    \paragraph{Riemann Sums}
+                        This is where we draw rectangles from the axis from which the function is in terms of up to a point of a function. Each subinterval's width can be given or can be calculated by a simple division. There are different types of Riemann sums.
+                        It is not necessarily a rectangle, but it can also be a trapezoid, which is called the trapezoid Riemann Sum.
+                        Some examples of Riemann Sums are:
+                        \begin{itemize}
+                            \item right corner: the height of the rectangle is equal to the value of the function at the right bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}f(\alpha+k \cdot \Delta x)\cdot\Delta x$$
+                            \item left corner: the height of the rectangle is equal to the value of the function at the left bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x) \approx \sum_{k=1}^{n}f(\alpha+(k-1)\cdot \Delta x)\cdot\Delta x$$
+                            \item midpoint: the height of the rectangle is equal to the value of the function in the middle of the bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}f(\alpha+(\Delta x\cdot(k-1))+(\frac{\Delta x}{2}))$$
+                        \item trapezoid: instead of rectangles, trapezoids are used. This can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}(f(\alpha+(k-1)\cdot\Delta x)+f(\alpha+k\cdot\Delta x))\frac{\Delta x}{2}$$
+                        \end{itemize}
+                        where the variables are designed as
+                        \begin{center}
+                            $\Delta x$ is the width of the subinterval of each subinterval\\
+                            $\alpha$ is the lower limit/bound of the integral\\
+                            $\beta$ is the upper limit/bound of the integral\\
+                            $n$ is the number of subintervals specified\\
+                        \end{center}
+                        Note: $n$ can be calculated if $\alpha$ and $\beta$
+                        If something isn't integratable, then U-substitution can be used.
                     \paragraph{U substitution}
                         A variable can be used to replace a portion of a function. How this will work is:
                         \begin{enumerate}
@@ -106,6 +125,7 @@
                             \int u^{-\frac{1}{2}}du = \dfrac{u^{\frac{1}{2}}}{\frac{1}{2}}+c\hspace{30px}\\
                             2(1-4x^2)^{\frac{1}{2}}+c\hspace*{50px}
                         \end{align*}
+                        If there are still $x$ values left after U-sub, then algabraic substitution can be used. This is where $u$ is expressed in terms of $x$.
                     \paragraph{Definite Integrals}
                         definite integrals output the area beneath the curve of the function, with the bounds of $\alpha$ and $\beta$, where $\alpha<\beta$. Notation denoted below:
                         $$\int_{\alpha}^{\beta}f'(x) dx = [f(x)]^{x=\alpha}_{x=\beta}$$ 
@@ -125,6 +145,12 @@
                         \begin{equation}
                             \int^\beta_\alpha f'(x)dx = [f(x)]^{x=\beta}_{x=\alpha}=f(b)-f(a)
                         \end{equation}
+                        Given this, it is possible to find either one of the three terms given two. 
+                        \\\textbf{Keep In Mind}, when using U substitution and difinite integrals, the bounds need to change accordingly.
+                        \begin{equation}
+                            \int^\beta_\alpha f(u(x))u'(x)dx = \int^{u(\beta)}_{u(\alpha)}f(u)du
+                        \end{equation}
+                        
         % subsubsection Mean Value Theorem (end)
 \section{Computer Science}\label{Computer Science}
 will be using c++ for every example
@@ -197,6 +223,4 @@ will be using c++ for every example
             \label{par:gravitational potential energy}
                 stored energy associated with an object's height above some reference point.
                 $$U_g=mgy$$
-                
-
 \end{document} % End document
