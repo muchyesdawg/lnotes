@@ -151,7 +151,7 @@
                             \int^\beta_\alpha f(u(x))u'(x)dx = \int^{u(\beta)}_{u(\alpha)}f(u)du
                         \end{equation}
                         
-        % subsubsection Mean Value Theorem (end)
+        % subsubsection mean Value Theorem (end)
 \section{Computer Science}\label{Computer Science}
 will be using c++ for every example
     \subsection{bit shit}
@@ -169,7 +169,7 @@ will be using c++ for every example
                     x=x<<1;//shifting towards the left
                 \end{verbatim}
                 does the same.
-        \subsubsection{IEEE 754}
+        \subsubsection{ieee 754}
             \paragraph{overview}
                 This is how floats in C++ are stored. Floats are stored in 32 bit. the first bit is sign.
                 The second to ninth bit is exponent, and the 10th to 32th bit is the mantissa. the exponent has
@@ -204,23 +204,37 @@ will be using c++ for every example
                 there are three rules for work to exist.
                 \begin{itemize}
                     \item force must be applied
-                    \item there must be a displacement
                     \item there must be a direction
+                    \item there must be a displacement along the direction
                 \end{itemize}
+                \textbf{please Note:} 
+                If the object that the force acts upon has no displacement, then said object has no work done onto it.
             \paragraph{equations}
-                $$W=fd$$
-                $$W=fd\cos(\theta)$$
-                $$P=\dfrac{\Delta w}{t}$$
+                \begin{equation} W=fd \end{equation}
+                \begin{equation} W=fd\cos(\theta) \end{equation}
                 \begin{center} where $P$ is power \end{center}
-                $$K=\frac{mv^2}{2}$$
+                \begin{equation}
+                    K=\frac{mv^2}{2}
+                \end{equation}
+        \subsubsection{power}
+            \paragraph{definition}
+                Power describes the rate of which work is performed.
+                \begin{equation} P=\dfrac{\Delta w}{t} \end{equation}
         \subsubsection{Energy}
             \paragraph{Energy}
-                the ability to do work. Units is $J$, $Joules$. $w=e$
-            \paragraph{kinetic energy}
-                object with velocity. $K$ represents kinetic energy.
+                the ability to do work.\\ Units is $J$, $Joules$.
+                \subparagraph{Work Energy Theorem}
+                    States that work can be converted to energy, $w=e$.
+            \paragraph{Kinetic energy}
+                Energy in motion. all moving objects have kinetic energy. $K$ represents kinetic energy.
                 $$K=\frac{mv^2}{2}$$ 
-            \paragraph{gravitational potential energy}%
-            \label{par:gravitational potential energy}
+            \paragraph{Gravitational potential energy}%
+            \label{par:Gravitational potential energy}
                 stored energy associated with an object's height above some reference point.
-                $$U_g=mgy$$
+                \begin{equation}
+                    U_g=mgy
+                \end{equation}
+            \paragraph{Elastic potential energy}
+        \subsubsection{Systems}                
+            A system is something some objects taken into consideration in a question where each object is described in relation to each other.
 \end{document} % End document

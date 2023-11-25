@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1700622349 "h:/projects/lnotes/math.tex" "math.pdf" "math" 1700622353 0
+["pdflatex"] 1700940544 "h:/projects/lnotes/math.tex" "math.pdf" "math" 1700940548 0
   "C:/Users/Markus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700604626 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Markus/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1700604732 11548 fd7ad76c091386f32b10f9c3ac1842c3 ""
   "C:/Users/Markus/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699417299 24198539 b79edb6c47dffd481cdb3aceade5309d ""
@@ -176,10 +176,10 @@
   "H:/OProgramFiles/MiKTeX/tex/latex/titlesec/titlesec.sty" 1699094857 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/tools/bm.sty" 1686255640 13231 df28b16cc1506f657b947b66cabad463 ""
   "H:/OProgramFiles/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "h:/projects/lnotes/math.tex" 1700622348 11624 26d3d8b66f4c7b81630ae3132875f3ee ""
-  "math.aux" 1700622353 3701 676b14e3a8d18fa65ae482a25eae3b03 "pdflatex"
-  "math.tex" 1700622348 11624 26d3d8b66f4c7b81630ae3132875f3ee ""
-  "math.toc" 1700622353 2130 c23ded02b77e39c81e9b4a572cf389db "pdflatex"
+  "h:/projects/lnotes/math.tex" 1700940539 15403 6edc814f64808f20dac6d548d7e55054 ""
+  "math.aux" 1700940548 4343 deb293befb389f3a7c388f6cb38528d4 "pdflatex"
+  "math.tex" 1700940539 15403 6edc814f64808f20dac6d548d7e55054 ""
+  "math.toc" 1700940548 2525 cafb65be528bb3005d13e1e3789fe999 "pdflatex"
   (generated)
   "math.aux"
   "math.log"

@@ -256,8 +256,8 @@ INPUT H:\OProgramFiles\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
 OUTPUT math.toc
 OUTPUT math.pdf
 INPUT C:\Users\Markus\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT H:\OProgramFiles\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT H:\OProgramFiles\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT H:\OProgramFiles\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT math.aux
 INPUT C:\Users\Markus\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Markus\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
