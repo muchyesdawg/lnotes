@@ -18,6 +18,7 @@
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 \renewcommand{\qedsymbol}{$QED$}
+\newtheorem{exmat}{Example}[subsection]
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}
 
@@ -27,6 +28,7 @@
 % \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
 %\pgfplotsset{ standard/.style={ axis line style = thick, trig format=rad, enlargelimits, axis x line=middle, axis y line=middle, enlarge x limits=0.15, enlarge y limits=0.15, every axis x label/.style={at{(current axis.right of origin)},anchor=north west}, every axis y label/.style={at={(current axis.above of origin)},anchor=south east} } }
 \tableofcontents
+\pagebreak
 \section{Introduction}
     \begin{center}
         just random ass notes, separted by sections.
@@ -38,7 +40,8 @@
     \end{center}
     unless stated otherwise.
     \\Another note is that the $QED$, meaning \textit{quod erat demonstratum} in Latin, means ''it is demonstrated'' and marks the end of proofs.
-\section{math}
+\pagebreak
+\section{math}% ! math
     \subsection{general}
         \subsubsection{bases}
         given  \begin{center}
@@ -81,14 +84,25 @@
             blue is $x+\mu$, where $\mu=\dfrac{f(c)-c}{2}$
         \end{center}
     \subsection{Vector/Matrix math} % (fold)
-    \label{sub:vecMat}//note: vector math
-        Vectors have different definitions depending on the discipline, Math and Computer Science, but this section will ignore the Computer Science aspect.
-        This is how normal matrices are denoted:\[
-        \begin{bmatrix}
-            1 & 2 & 3\\
-            a & b & c
-        \end{bmatrix}\]
-    % subsection vecMat (end)
+    \label{sub:vecMat}
+        \subsubsection{basics}
+        %note: vector math
+            Vectors have different definitions depending on the discipline, Math and Computer Science, but this section will ignore the Computer Science aspect.
+            This is how normal matrices are denoted:
+            \[\begin{bmatrix}
+                e_1 & e_2 & e_3 & \\
+                1 & 2 & 3 & d_1\\
+                a & b & c & d_2
+            \end{bmatrix}=M\]
+            Each element can be denoted through $m_{d,e}$, where $e$ is the column and $d$ is the row .
+            \begin{exmat}
+                \[
+                    m_{1,2}=2, m_{2,3}=c
+                \]
+            \end{exmat}
+            matrix can be used to represent 
+        % subsection vecMat (end)
+    \pagebreak
     \subsection{calculus}
     this section will follow the order in which Calculus BC is taught, with first half from start of school to optimization problems, and second half being from integration to everything else.
         \subsubsection{First Half}
@@ -163,7 +177,7 @@
                     \\\textbf{Keep In Mind}, when using U substitution and difinite integrals, the bounds need to change accordingly.
                     \begin{equation}
                         \int^\beta_\alpha f(u(x))u'(x)dx = \int^{u(\beta)}_{u(\alpha)}f(u)du
-                    \end{equation}\pagebreak
+                    \end{equation}
             \paragraph{Unit 7}
                 \subparagraph{Fundamental Theorem of Calculus Part 2}
                     \begin{theorem}[$FTC$ part 2]
@@ -203,9 +217,11 @@
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
                     %\end{definition}
         % subsubsection mean Value Theorem (end)
+\pagebreak
 \section{Computer Science}\label{sec:csSec}
 will be using c++ for every example
     \subsection{Vector}\label{sub:csVec}
+    It is a way of storing information, two numbers in 2D and 3 numbers and 3D.
     \subsection{bit shit}
         \subsubsection{bitwise operators to stop forgetting}
             \begin{center}
