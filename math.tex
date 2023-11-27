@@ -9,11 +9,6 @@
 \title{My bs notes}
 \author{Makus}
 \date{\today}
-\begin{document} % Begin document content
-\maketitle
-
-% \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
-%\pgfplotsset{ standard/.style={ axis line style = thick, trig format=rad, enlargelimits, axis x line=middle, axis y line=middle, enlarge x limits=0.15, enlarge y limits=0.15, every axis x label/.style={at{(current axis.right of origin)},anchor=north west}, every axis y label/.style={at={(current axis.above of origin)},anchor=south east} } }
 
 \setcounter{secnumdepth}{4}
 \theoremstyle{theorem}
@@ -25,6 +20,12 @@
 \renewcommand{\qedsymbol}{$QED$}
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}
+
+\begin{document} % Begin document content
+\maketitle
+
+% \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
+%\pgfplotsset{ standard/.style={ axis line style = thick, trig format=rad, enlargelimits, axis x line=middle, axis y line=middle, enlarge x limits=0.15, enlarge y limits=0.15, every axis x label/.style={at{(current axis.right of origin)},anchor=north west}, every axis y label/.style={at={(current axis.above of origin)},anchor=south east} } }
 \tableofcontents
 \section{Introduction}
     \begin{center}
@@ -79,6 +80,15 @@
             green is $x+c-f(c)$, where $f(c)=\log_2(x+1)$\\
             blue is $x+\mu$, where $\mu=\dfrac{f(c)-c}{2}$
         \end{center}
+    \subsection{Vector/Matrix math} % (fold)
+    \label{sub:vecMat}//note: vector math
+        Vectors have different definitions depending on the discipline, Math and Computer Science, but this section will ignore the Computer Science aspect.
+        This is how normal matrices are denoted:\[
+        \begin{bmatrix}
+            1 & 2 & 3\\
+            a & b & c
+        \end{bmatrix}\]
+    % subsection vecMat (end)
     \subsection{calculus}
     this section will follow the order in which Calculus BC is taught, with first half from start of school to optimization problems, and second half being from integration to everything else.
         \subsubsection{First Half}
@@ -193,8 +203,9 @@
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
                     %\end{definition}
         % subsubsection mean Value Theorem (end)
-\section{Computer Science}\label{Computer Science}
+\section{Computer Science}\label{sec:csSec}
 will be using c++ for every example
+    \subsection{Vector}\label{sub:csVec}
     \subsection{bit shit}
         \subsubsection{bitwise operators to stop forgetting}
             \begin{center}
