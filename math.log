@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  25 NOV 2023 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  26 NOV 2023 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -954,15 +954,15 @@ L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25898 strings out of 474704
- 657440 string characters out of 5758002
+ 25899 strings out of 474704
+ 657456 string characters out of 5758002
  1947547 words of memory out of 5000000
- 47561 multiletter control sequences out of 15000+600000
+ 47562 multiletter control sequences out of 15000+600000
  571692 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,740b,2119s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Markus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (10 pages, 247248 bytes).
+Output written on math.pdf (10 pages, 248111 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
