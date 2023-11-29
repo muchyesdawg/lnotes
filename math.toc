@@ -23,6 +23,7 @@
 \contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{8}{}%
 \contentsline {subparagraph}{Logarithms}{9}{}%
 \contentsline {subparagraph}{Areas between Curve}{9}{}%
+\contentsline {subparagraph}{Volume given cross section}{9}{}%
 \contentsline {section}{\numberline {3}Computer Science}{10}{}%
 \contentsline {subsection}{\numberline {3.1}Vector}{10}{}%
 \contentsline {subsection}{\numberline {3.2}bit shit}{10}{}%
@@ -47,4 +48,4 @@
 \contentsline {paragraph}{\numberline {4.1.3.3}Gravitational potential energy}{12}{}%
 \contentsline {paragraph}{\numberline {4.1.3.4}Elastic potential energy}{12}{}%
 \contentsline {paragraph}{\numberline {4.1.3.5}Mechanical Energy}{12}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}Systems}{12}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Systems}{13}{}%
