@@ -9,7 +9,8 @@
 \title{My bs notes}
 \author{Makus}
 \date{\today}
-
+\newtheorem{exmp}{Example}[paragraph]
+\newtheorem{problem}{Problem}
 \setcounter{secnumdepth}{4}
 \theoremstyle{theorem}
 \newtheorem{theorem}{Theorem}[paragraph]
@@ -27,6 +28,7 @@
 
 % \grouping{<something>} acts similar to a ToC entry for \chapter*{<something>}
 %\pgfplotsset{ standard/.style={ axis line style = thick, trig format=rad, enlargelimits, axis x line=middle, axis y line=middle, enlarge x limits=0.15, enlarge y limits=0.15, every axis x label/.style={at{(current axis.right of origin)},anchor=north west}, every axis y label/.style={at={(current axis.above of origin)},anchor=south east} } }
+\setcounter{tocdepth}{5}
 \tableofcontents
 \pagebreak
 \section{Introduction}
@@ -143,6 +145,11 @@
                     \end{center}
                     Note: $n$ can be calculated if $\alpha$ and $\beta$
                     If something isn't integratable, then U-substitution can be used.
+                    the Riemann sums function is defined by the equation:
+                    \begin{equation}
+                        \int^b_a f(x)dx = \lim_{n \to \infty} \sum_{k=1}^{n}f(c_k)\Delta x_k
+                    \end{equation}
+                    where $\Delta x_k$ is $\frac{b-a}{n}$, and $c_k$ is $a+\Delta x_k \cdot k$
                 \subparagraph{U substitution}
                     A variable can be used to replace a portion of a function. How this will work is:
                     \begin{enumerate}
@@ -223,6 +230,23 @@
                     where $x$ can be replaced with whatever variable, including $y$
                 \subparagraph{Volume given cross section}
                     Given two graphs, it is possible to construct a 3d model, using the area enclosed in the graph as a cross section and extending it in the z axis. To do so, the equation % TODO: write notes for volume given cross section
+                    By integrating a function like: $$\int^b_\alpha A(x)dx$$
+                    \begin{center} where $A(x)$ is a function denoting the Area of base of the $3D$ object at x within the domain $[\alpha,b]$ \end{center}
+                    It finds the function's area under the curve. But since what is desired is the volume of a 3D shape, what can be done
+                    is multiplying $A(x)$ to get the area of a cross section of the $3D$ Model. 
+                    \begin{exmp}
+                        \begin{problem}
+                            Given that $A(x)$ denotes the area of the base of the $3D$ model, we are to write the equation that calculates the volume of the $3D$ shape where $A(x)$ between $[\alpha,\ b]$ is equal to the diameter of the semi-circle extruded from said area.
+                        \end{problem}
+                        The solution would be: \[
+                            \dfrac{\pi(\int_\alpha^bA(x)^2)}{2}
+                        \]
+                        \begin{proof}
+                            \textit{Givens}: $A(x)$ in the range $[\alpha, b]$ is the diameter of the function and the area of a semicircle is $\frac{\pi r^2}{2}$.
+                            \\Since $A(x)$ defines the diameter, $\frac{A(x)}{2}$ is the radius. To find the area of the semicircle at a certain point $c$, the equation would be $\frac{\pi A(c)^2}{2}$. To find the volume of the $3D$, the equation would turn into $\int^b_\alpha \frac{\pi A(x)^2}{2}dx$, simplifying to 
+                            $$\dfrac{\pi(\int_\alpha^bA(x)^2)}{2}$$
+                        \end{proof}
+                    \end{exmp}
                     %\begin{definition}[Fundamental Theorem of Calculus Pt.2]
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
                     %\end{definition}
