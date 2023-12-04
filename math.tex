@@ -255,7 +255,33 @@
                     Keeping in mind that it is possible to find the  
                 \subparagraph{Volume: the disc method}
                     Similar to the method shown above. But instead of finding the figure, there is a set way to find the the figure.
-                    The way this is achieved with 
+                    The way this is achieved with the formula 
+                    \begin{equation}
+                        V=\pi \int_{\alpha}^{b}R(x)^2dx
+                        \label{eq:volDiscDx}
+                    \end{equation}
+                    or in terms of y($R(y)$ should be $R(x)$ in terms of $y$):
+                    \begin{equation}
+                        V=\pi \int_{c}^{d}R(y)^2dy
+                        \label{eq:volDiscDx}
+                    \end{equation}
+                    for something that is to be in the shape of washers, then two functions are to be defined.
+                  \\\textit{Given:}
+                    \begin{center}
+                        $R(x)$ is the outer radius\\ 
+                        $r(x)$ is the inner radius $$R(x)>r(x)$$
+                    \end{center}
+                    The equation is would be:
+                    \begin{equation}
+                        V=\pi\int_{\alpha}^{b}R(x)^2 - r(x)^2dx
+                        \label{eq:volDonutDx}
+                    \end{equation}
+                    in $dx$. In $dy$, the integral is going to be 
+                    \begin{equation}
+                        V=\pi\int_{c}^{d}R(y)^2-r(y)^2dy
+                        \label{eq:volDonutDy}
+                    \end{equation}
+                    setting both functions in terms of y.
                     %\begin{definition}[Fundamental Theorem of Calculus Pt.2]
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
                     %\end{definition}
