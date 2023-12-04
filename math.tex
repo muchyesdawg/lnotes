@@ -227,13 +227,18 @@
                         A=\int_{\alpha}^{\beta}[f(x)-g(x)]dx
                         \label{eq:AreaBtCurve}
                     \end{equation}
-                    where $x$ can be replaced with whatever variable, including $y$
+                    where $x$ can be replaced with whatever variable, including $y$. $h(x) = f(x) - g(x)$ denotes the difference between the two functions. With this is mind, expressing $h(x)$ in terms of $y$, it is possible to find the area between curve in terms of Y, which may be better in certain questions. 
+                    \begin{equation}
+                        A = \int_{c}^{d}f(y)\Delta y
+                        \label{eq:ABtwnCurvdy}
+                    \end{equation}
                 \subparagraph{Volume given cross section}
                     Given two graphs, it is possible to construct a 3d model, using the area enclosed in the graph as a cross section and extending it in the z axis. To do so, the equation % TODO: write notes for volume given cross section
                     By integrating a function like: $$\int^b_\alpha A(x)dx$$
                     \begin{center} where $A(x)$ is a function denoting the Area of base of the $3D$ object at x within the domain $[\alpha,b]$ \end{center}
                     It finds the function's area under the curve. But since what is desired is the volume of a 3D shape, what can be done
                     is multiplying $A(x)$ to get the area of a cross section of the $3D$ Model. 
+                    \textbf{\textit{Note:}} that this can also be in terms of y, as shown in Equation~\ref{eq:ABtwnCurvdy}.
                     \begin{exmp}
                         \begin{problem}
                             Given that $A(x)$ denotes the area of the base of the $3D$ model, we are to write the equation that calculates the volume of the $3D$ shape where $A(x)$ between $[\alpha,\ b]$ is equal to the diameter of the semi-circle extruded from said area.
@@ -247,6 +252,10 @@
                             $$\dfrac{\pi(\int_\alpha^bA(x)^2)}{2}$$
                         \end{proof}
                     \end{exmp}
+                    Keeping in mind that it is possible to find the  
+                \subparagraph{Volume: the disc method}
+                    Similar to the method shown above. But instead of finding the figure, there is a set way to find the the figure.
+                    The way this is achieved with 
                     %\begin{definition}[Fundamental Theorem of Calculus Pt.2]
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
                     %\end{definition}

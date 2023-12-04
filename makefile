@@ -1,3 +1,5 @@
 default:
-	pdflatex math.tex;clear
+	pdflatex math.tex
+	clear
+
 

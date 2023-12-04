@@ -23,7 +23,8 @@
 \contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{9}{}%
 \contentsline {subparagraph}{Logarithms}{10}{}%
 \contentsline {subparagraph}{Areas between Curve}{10}{}%
-\contentsline {subparagraph}{Volume given cross section}{10}{}%
+\contentsline {subparagraph}{Volume given cross section}{11}{}%
+\contentsline {subparagraph}{Volume: the disc method}{11}{}%
 \contentsline {section}{\numberline {3}Computer Science}{12}{}%
 \contentsline {subsection}{\numberline {3.1}Vector}{12}{}%
 \contentsline {subsection}{\numberline {3.2}bit shit}{12}{}%
