@@ -13,18 +13,19 @@
 \contentsline {subsubsection}{\numberline {2.3.1}First Half}{7}{}%
 \contentsline {paragraph}{\numberline {2.3.1.1}Mean Value Theorem}{7}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}Second Half}{7}{}%
-\contentsline {paragraph}{\numberline {2.3.2.1}Unit 6}{7}{}%
+\contentsline {paragraph}{\numberline {2.3.2.1}Unit 5}{7}{}%
 \contentsline {subparagraph}{Integration}{7}{}%
 \contentsline {subparagraph}{Riemann Sums}{7}{}%
 \contentsline {subparagraph}{U substitution}{8}{}%
 \contentsline {subparagraph}{Definite Integrals}{9}{}%
 \contentsline {subparagraph}{Fundamental Theorem of Calculus part 1}{9}{}%
-\contentsline {paragraph}{\numberline {2.3.2.2}Unit 7}{9}{}%
-\contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{9}{}%
+\contentsline {subparagraph}{Average Value}{9}{}%
+\contentsline {paragraph}{\numberline {2.3.2.2}Unit 6}{10}{}%
+\contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{10}{}%
 \contentsline {subparagraph}{Logarithms}{10}{}%
-\contentsline {subparagraph}{Areas between Curve}{10}{}%
+\contentsline {subparagraph}{Areas between Curve}{11}{}%
 \contentsline {subparagraph}{Volume given cross section}{11}{}%
-\contentsline {subparagraph}{Volume: the disc method}{11}{}%
+\contentsline {subparagraph}{Volume: the disc method}{12}{}%
 \contentsline {section}{\numberline {3}Computer Science}{13}{}%
 \contentsline {subsection}{\numberline {3.1}Vector}{13}{}%
 \contentsline {subsection}{\numberline {3.2}bit shit}{13}{}%

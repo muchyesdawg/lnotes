@@ -121,7 +121,7 @@
             \label{ssub:Mean Value Theorem}
                 Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
         \subsubsection{Second Half}
-            \paragraph{Unit 6}
+            \paragraph{Unit 5}
                 \subparagraph{Integration}
                     it is the inverse of differentiation, much like addition and subtraction. This process is denoted with the equation below.
                     $$\int f'(x)dx = f(x)$$
@@ -185,6 +185,7 @@
                         \item $\int ^{\alpha}_{-\alpha}f(x)dx=0$ assuming f(x) is odd
                     \end{enumerate}
                 \subparagraph{Fundamental Theorem of Calculus part 1}
+                \label{subp:FTCpt1}
                     If $f$ is continuous on $[a,b]$, then the following would be true:
                     \begin{equation}
                         \int^\beta_\alpha f'(x)dx = [f(x)]^{x=\beta}_{x=\alpha}=f(b)-f(a)
@@ -194,7 +195,26 @@
                     \begin{equation}
                         \int^\beta_\alpha f(u(x))u'(x)dx = \int^{u(\beta)}_{u(\alpha)}f(u)du
                     \end{equation}
-            \paragraph{Unit 7}
+                \subparagraph{Average Value}
+                The function defines the formula to find the average value of a function. Given that we have to find the average value of $f$ on the interval $[a,b]$his is defined by: 
+                    \begin{equation}
+                        f_{avg}=\frac{1}{b-a}\int_{a}^{b}f(x)dx
+                        \label{eq:avgValF}
+                    \end{equation}
+                As opposeed to the function that finds the average rate of change, defined by:
+                \begin{equation}
+                    \label{eq:avgROCF}
+                    m_{avg}=\dfrac{\int_a^bf'(x)dx}{b-a}
+                \end{equation}
+                \begin{proof}
+                    According to FTC Pt.1 shown in subparagragh ~\ref{subp:FTCpt1}, $\int_a^bf'(x) = f(b)-f(a)$.
+                    Knowing this, in equation~\ref{eq:avgROCF}, $\int_a^bf'(x)$ can be replaced with $f(b)-f(a)$. This gives us the final equation:
+                    \[
+                        m_{avg}=\frac{f(b)-f(a)}{b-a}
+                    \]
+                    Which is the formula for average rate of change.
+                \end{proof}
+            \paragraph{Unit 6}
                 \subparagraph{Fundamental Theorem of Calculus Part 2}
                     \begin{theorem}[$FTC$ part 2]
                         \label{thm:FTCpt2}
