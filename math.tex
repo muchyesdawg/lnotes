@@ -117,6 +117,7 @@
     \subsection{calculus}
     this section will follow the order in which Calculus BC is taught, with first half from start of school to optimization problems, and second half being from integration to everything else.
         \subsubsection{First Half}
+        This will mostly be derivatives and AB stuff.
             \paragraph{Mean Value Theorem} % (fold)
             \label{ssub:Mean Value Theorem}
                 Mean Value Theorem, or MVT, states that if f(x) is continuous and differentiable within the range $a\le x \le b$, then there exists a point $c$ where $f'(c) = \dfrac{f(b)-f(a)}{b-a}$
@@ -131,19 +132,19 @@
                     It is not necessarily a rectangle, but it can also be a trapezoid, which is called the trapezoid Riemann Sum.
                     Some examples of Riemann Sums are:
                     \begin{itemize}
-                        \item right corner: the height of the rectangle is equal to the value of the function at the right bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}f(\alpha+k \cdot \Delta x)\cdot\Delta x$$
-                        \item left corner: the height of the rectangle is equal to the value of the function at the left bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x) \approx \sum_{k=1}^{n}f(\alpha+(k-1)\cdot \Delta x)\cdot\Delta x$$
-                        \item midpoint: the height of the rectangle is equal to the value of the function in the middle of the bound/limit, and can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}f(\alpha+(\Delta x\cdot(k-1))+(\frac{\Delta x}{2}))$$
-                    \item trapezoid: instead of rectangles, trapezoids are used. This can be modeled by the function $$\int_\alpha^\beta f(x)\approx \sum_{k=1}^{n}(f(\alpha+(k-1)\cdot\Delta x)+f(\alpha+k\cdot\Delta x))\frac{\Delta x}{2}$$
+                        \item right corner: the height of the rectangle is equal to the value of the function at the right bound/limit, and can be modeled by the function $$\int_a^\beta f(x)\approx \sum_{k=1}^{n}f(a+k \cdot \Delta x)\cdot\Delta x$$
+                        \item left corner: the height of the rectangle is equal to the value of the function at the left bound/limit, and can be modeled by the function $$\int_a^\beta f(x) \approx \sum_{k=1}^{n}f(a+(k-1)\cdot \Delta x)\cdot\Delta x$$
+                        \item midpoint: the height of the rectangle is equal to the value of the function in the middle of the bound/limit, and can be modeled by the function $$\int_a^\beta f(x)\approx \sum_{k=1}^{n}f(a+(\Delta x\cdot(k-1))+(\frac{\Delta x}{2}))$$
+                    \item trapezoid: instead of rectangles, trapezoids are used. This can be modeled by the function $$\int_a^\beta f(x)\approx \sum_{k=1}^{n}(f(a+(k-1)\cdot\Delta x)+f(a+k\cdot\Delta x))\frac{\Delta x}{2}$$
                     \end{itemize}
                     where the variables are designed as
                     \begin{center}
                         $\Delta x$ is the width of the subinterval of each subinterval\\
-                        $\alpha$ is the lower limit/bound of the integral\\
+                        $a$ is the lower limit/bound of the integral\\
                         $\beta$ is the upper limit/bound of the integral\\
                         $n$ is the number of subintervals specified\\
                     \end{center}
-                    Note: $n$ can be calculated if $\alpha$ and $\beta$
+                    Note: $n$ can be calculated if $a$ and $\beta$
                     If something isn't integratable, then U-substitution can be used.
                     the Riemann sums function is defined by the equation:
                     \begin{equation}
@@ -171,29 +172,29 @@
                     \end{align*}
                     If there are still $x$ values left after U-sub, then algabraic substitution can be used. This is where $u$ is expressed in terms of $x$.
                 \subparagraph{Definite Integrals}
-                    definite integrals output the area beneath the curve of the function, with the bounds of $\alpha$ and $\beta$, where $\alpha<\beta$. Notation denoted below:
-                    $$\int_{\alpha}^{\beta}f'(x) dx = [f(x)]^{x=\alpha}_{x=\beta}$$ 
-                    if $\alpha$ and $\beta$ are switched, then:
-                    $$\int_{\beta}^{\alpha}f'(x) dx = -[f(x)]^{x=\alpha}_{x=\beta}$$
+                    definite integrals output the area beneath the curve of the function, with the bounds of $a$ and $\beta$, where $a<\beta$. Notation denoted below:
+                    $$\int_{a}^{\beta}f'(x) dx = [f(x)]^{x=a}_{x=\beta}$$ 
+                    if $a$ and $\beta$ are switched, then:
+                    $$\int_{\beta}^{a}f'(x) dx = -[f(x)]^{x=a}_{x=\beta}$$
                     some more properties include:
                     \begin{enumerate}
-                        \item $\int ^{\alpha}_{\alpha}f(x)dx = 0$
-                        \item $\int _{\alpha}^{\beta}cf(x)dx =c\int _{\alpha}^{\beta}f(x)dx$(including negative numbers)
-                        \item $\int _{\alpha}^{\beta}(f(x)\pm g(x))dx = \int _{\alpha}^{\beta}f(x)dx\pm \int _{\alpha}^{\beta} g(x)dx$
-                        \item $\int _{\alpha}^{\beta}(f(x)dx)+\int ^{\gamma}_{\alpha}(f(x)dx)=\int ^{\gamma}_{\alpha}(f(x)dx)$
-                        \item $\int ^{\alpha}_{-\alpha}f(x)dx=2\int ^{\alpha}_{0}f(x)dx$ assuming f(x) is even
-                        \item $\int ^{\alpha}_{-\alpha}f(x)dx=0$ assuming f(x) is odd
+                        \item $\int ^{a}_{a}f(x)dx = 0$
+                        \item $\int _{a}^{\beta}cf(x)dx =c\int _{a}^{\beta}f(x)dx$(including negative numbers)
+                        \item $\int _{a}^{\beta}(f(x)\pm g(x))dx = \int _{a}^{\beta}f(x)dx\pm \int _{a}^{\beta} g(x)dx$
+                        \item $\int _{a}^{\beta}(f(x)dx)+\int ^{\gamma}_{a}(f(x)dx)=\int ^{\gamma}_{a}(f(x)dx)$
+                        \item $\int ^{a}_{-a}f(x)dx=2\int ^{a}_{0}f(x)dx$ assuming f(x) is even
+                        \item $\int ^{a}_{-a}f(x)dx=0$ assuming f(x) is odd
                     \end{enumerate}
                 \subparagraph{Fundamental Theorem of Calculus part 1}
                 \label{subp:FTCpt1}
                     If $f$ is continuous on $[a,b]$, then the following would be true:
                     \begin{equation}
-                        \int^\beta_\alpha f'(x)dx = [f(x)]^{x=\beta}_{x=\alpha}=f(b)-f(a)
+                        \int^\beta_a f'(x)dx = [f(x)]^{x=\beta}_{x=a}=f(b)-f(a)
                     \end{equation}
                     Given this, it is possible to find either one of the three terms given two. 
                     \\\textbf{Keep In Mind}, when using U substitution and difinite integrals, the bounds need to change accordingly.
                     \begin{equation}
-                        \int^\beta_\alpha f(u(x))u'(x)dx = \int^{u(\beta)}_{u(\alpha)}f(u)du
+                        \int^\beta_a f(u(x))u'(x)dx = \int^{u(\beta)}_{u(a)}f(u)du
                     \end{equation}
                 \subparagraph{Average Value}
                 The function defines the formula to find the average value of a function. Given that we have to find the average value of $f$ on the interval $[a,b]$his is defined by: 
@@ -214,14 +215,15 @@
                     \]
                     Which is the formula for average rate of change.
                 \end{proof}
+            \pagebreak
             \paragraph{Unit 6}
                 \subparagraph{Fundamental Theorem of Calculus Part 2}
                     \begin{theorem}[$FTC$ part 2]
                         \label{thm:FTCpt2}
-                        assuming $f$ is continuous on $[\alpha,b]$, if $g(x)=\int_{\alpha}^{x}f(t)dt$, then $g'(x)=f(x)$, or \begin{equation} g'(x) = \frac{d}{dx}(\int_{\alpha}^{x}(f(t))dt) \end{equation}
+                        assuming $f$ is continuous on $[a,b]$, if $g(x)=\int_{a}^{x}f(t)dt$, then $g'(x)=f(x)$, or \begin{equation} g'(x) = \frac{d}{dx}(\int_{a}^{x}(f(t))dt) \end{equation}
                     \end{theorem}
                     \begin{proof}[Proof FTC Part 2]
-                        This works the same way as $\int_{\alpha}^{\beta}f'(x)=f(x)$. \\Since $f(f^{-1}(x))=x$ and $f^{-1}(f(x))=x$, then this shows the proof \\of Theorem~\ref{thm:FTCpt2}.
+                        This works the same way as $\int_{a}^{\beta}f'(x)=f(x)$. \\Since $f(f^{-1}(x))=x$ and $f^{-1}(f(x))=x$, then this shows the proof \\of Theorem~\ref{thm:FTCpt2}.
                         Since derivatives and integrals are inverse functions of each other, this proves Theorem~\ref{thm:FTCpt2}.
                     \end{proof}
                     The Chain rule version of this theorem is \begin{equation}
@@ -244,7 +246,7 @@
                     \end{enumerate}
                 \subparagraph{Areas between Curve}
                     To find the area between the curves, the equation is \begin{equation}
-                        A=\int_{\alpha}^{\beta}[f(x)-g(x)]dx
+                        A=\int_{a}^{\beta}[f(x)-g(x)]dx
                         \label{eq:AreaBtCurve}
                     \end{equation}
                     where $x$ can be replaced with whatever variable, including $y$. $h(x) = f(x) - g(x)$ denotes the difference between the two functions. With this is mind, expressing $h(x)$ in terms of $y$, it is possible to find the area between curve in terms of Y, which may be better in certain questions. 
@@ -254,30 +256,29 @@
                     \end{equation}
                 \subparagraph{Volume given cross section}
                     Given two graphs, it is possible to construct a 3d model, using the area enclosed in the graph as a cross section and extending it in the z axis. To do so, the equation % TODO: write notes for volume given cross section
-                    By integrating a function like: $$\int^b_\alpha A(x)dx$$
-                    \begin{center} where $A(x)$ is a function denoting the Area of base of the $3D$ object at x within the domain $[\alpha,b]$ \end{center}
+                    By integrating a function like: $$\int^b_a A(x)dx$$
+                    \begin{center} where $A(x)$ is a function denoting the Area of base of the $3D$ object at x within the domain $[a,b]$ \end{center}
                     It finds the function's area under the curve. But since what is desired is the volume of a 3D shape, what can be done
                     is multiplying $A(x)$ to get the area of a cross section of the $3D$ Model. 
                     \textbf{\textit{Note:}} that this can also be in terms of y, as shown in Equation~\ref{eq:ABtwnCurvdy}.
                     \begin{exmp}
                         \begin{problem}
-                            Given that $A(x)$ denotes the area of the base of the $3D$ model, we are to write the equation that calculates the volume of the $3D$ shape where $A(x)$ between $[\alpha,\ b]$ is equal to the diameter of the semi-circle extruded from said area.
+                            Given that $A(x)$ denotes the area of the base of the $3D$ model, we are to write the equation that calculates the volume of the $3D$ shape where $A(x)$ between $[a,\ b]$ is equal to the diameter of the semi-circle extruded from said area.
                         \end{problem}
                         The solution would be: \[
-                            \dfrac{\pi(\int_\alpha^bA(x)^2)}{2}
+                            \dfrac{\pi(\int_a^bA(x)^2)}{2}
                         \]
                         \begin{proof}
-                            \textit{Givens}: $A(x)$ in the range $[\alpha, b]$ is the diameter of the function and the area of a semicircle is $\frac{\pi r^2}{2}$.
-                            \\Since $A(x)$ defines the diameter, $\frac{A(x)}{2}$ is the radius. To find the area of the semicircle at a certain point $c$, the equation would be $\frac{\pi A(c)^2}{2}$. To find the volume of the $3D$, the equation would turn into $\int^b_\alpha \frac{\pi A(x)^2}{2}dx$, simplifying to 
-                            $$\dfrac{\pi(\int_\alpha^bA(x)^2)}{2}$$
+                            \textit{Givens}: $A(x)$ in the range $[a, b]$ is the diameter of the function and the area of a semicircle is $\frac{\pi r^2}{2}$.
+                            \\Since $A(x)$ defines the diameter, $\frac{A(x)}{2}$ is the radius. To find the area of the semicircle at a certain point $c$, the equation would be $\frac{\pi A(c)^2}{2}$. To find the volume of the $3D$, the equation would turn into $\int^b_a \frac{\pi A(x)^2}{2}dx$, simplifying to 
+                            $$\dfrac{\pi(\int_a^bA(x)^2)}{2}$$
                         \end{proof}
                     \end{exmp}
-                    Keeping in mind that it is possible to find the  
                 \subparagraph{Volume: the disc method}
-                    Similar to the method shown above. But instead of finding the figure, there is a set way to find the the figure.
+                    Volume by disc/washer/donut method is a way to find the volume of an object when a 2D area is rotated about an axis. It is best used when (assuming the formula is in terms of x) around the horizontal axis (x axis)
                     The way this is achieved with the formula 
                     \begin{equation}
-                        V=\pi \int_{\alpha}^{b}R(x)^2dx
+                        V=\pi \int_{a}^{b}R(x)^2dx
                         \label{eq:volDiscDx}
                     \end{equation}
                     or in terms of y($R(y)$ should be $R(x)$ in terms of $y$):
@@ -285,27 +286,60 @@
                         V=\pi \int_{c}^{d}R(y)^2dy
                         \label{eq:volDiscDx}
                     \end{equation}
-                    for something that is to be in the shape of washers, then two functions are to be defined.
+                    for something that is to be in the shape of washers, then the following two functions can be used.
                   \\\textit{Given:}
                     \begin{center}
+                        $c$ is the axis of rotation\\
                         $R(x)$ is the outer radius\\ 
                         $r(x)$ is the inner radius $$R(x)>r(x)$$
+                        $R(y)$ and $r(y)$ is $R(x)$ and $r(x)$ in terms of y.
                     \end{center}
-                    The equation is would be:
-                    \begin{equation}
-                        V=\pi\int_{\alpha}^{b}R(x)^2 - r(x)^2dx
+                    The equation is:
+                      \begin{equation}
                         \label{eq:volDonutDx}
-                    \end{equation}
-                    in $dx$. In $dy$, the integral is going to be 
+                          V=\pi\int_a^b (R(x)-c)^2-(r(x)-c)^2dx
+                      \end{equation}
+                    in $dx$. In $dy$, the integral is 
                     \begin{equation}
-                        V=\pi\int_{c}^{d}R(y)^2-r(y)^2dy
                         \label{eq:volDonutDy}
+                        V=\pi\int_c^d (R(y)-c)^2-(r(y)-c)^2dy
                     \end{equation}
-                    setting both functions in terms of y.
-                    %\begin{definition}[Fundamental Theorem of Calculus Pt.2]
-                     %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
-                    %\end{definition}
-        % subsubsection mean Value Theorem (end)
+                \subparagraph{Volume: Cylindrical shells}
+                this is similar to the method above, but when instead of rotating around the x/horizontal axis, you want to rotate around the y/vertical axis. \\\textbf{Given:}
+                    \begin{center}
+                        the vertical axis to be rotated around is at $x=c$\\
+                        the region of the function that is to be rotated/calculated is $(a,b)$
+                    \end{center}
+                    A way to achieve this is
+                    \begin{equation}
+                        \label{eq:volCylDX}
+                        V=2\pi\int_a^b(x-c)f(x)dx
+                    \end{equation}
+                    Vice versa:
+                    \begin{center}
+                        the horizontal axis to be rotated around is at $y=c$\\
+                        the region of the function that is to be rotated/calculated is $(c,d)$
+                    \end{center}
+                    A way to achieve this is
+                    \begin{equation}
+                        \label{eq:volCylDX}
+                        V=2\pi\int_c^d(y-c)f(y)dx
+                    \end{equation}
+                \subparagraph{Arc length}
+                \label{subp:Arc-length}
+                    In order to find the length of a curve of $f(x)$ on the interval $[a,b]$, the equation would be:
+                    \begin{equation}
+                        \label{eq:arcLengthdx}
+                        L=\int_a^b\sqrt{1+[f'(x)]^2}dx
+                    \end{equation}
+                    or:
+                    \begin{equation}
+                        \label{eq:arcLengthdy}
+                        L=\int_c^d\sqrt{1+[f'(y)]^2}dy
+                    \end{equation}
+            \pagebreak
+            \paragraph{Unit: 7}
+            \label{par:Unit-7}%scary
 \pagebreak
 \section{Computer Science}\label{sec:csSec}
 will be using c++ for every example

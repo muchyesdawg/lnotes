@@ -18,36 +18,39 @@
 \contentsline {subparagraph}{Riemann Sums}{7}{}%
 \contentsline {subparagraph}{U substitution}{8}{}%
 \contentsline {subparagraph}{Definite Integrals}{9}{}%
-\contentsline {subparagraph}{Fundamental Theorem of Calculus part 1}{9}{}%
-\contentsline {subparagraph}{Average Value}{9}{}%
-\contentsline {paragraph}{\numberline {2.3.2.2}Unit 6}{10}{}%
-\contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{10}{}%
-\contentsline {subparagraph}{Logarithms}{10}{}%
-\contentsline {subparagraph}{Areas between Curve}{11}{}%
-\contentsline {subparagraph}{Volume given cross section}{11}{}%
-\contentsline {subparagraph}{Volume: the disc method}{12}{}%
-\contentsline {section}{\numberline {3}Computer Science}{13}{}%
-\contentsline {subsection}{\numberline {3.1}Vector}{13}{}%
-\contentsline {subsection}{\numberline {3.2}bit shit}{13}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}bitwise operators to stop forgetting}{13}{}%
-\contentsline {paragraph}{\numberline {3.2.1.1}bitwise operator quirks?}{13}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}ieee 754}{13}{}%
-\contentsline {paragraph}{\numberline {3.2.2.1}overview}{13}{}%
-\contentsline {paragraph}{\numberline {3.2.2.2}nitty griddy}{14}{}%
-\contentsline {subsection}{\numberline {3.3}optimizations}{14}{}%
-\contentsline {section}{\numberline {4}physics}{14}{}%
-\contentsline {subsection}{\numberline {4.1}Unit 4}{14}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Work}{14}{}%
-\contentsline {paragraph}{\numberline {4.1.1.1}definition}{14}{}%
-\contentsline {paragraph}{\numberline {4.1.1.2}rules}{14}{}%
-\contentsline {paragraph}{\numberline {4.1.1.3}equations}{14}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}power}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.2.1}definition}{15}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}Energy}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.3.1}Energy}{15}{}%
-\contentsline {subparagraph}{Work Energy Theorem}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.3.2}Kinetic energy}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.3.3}Gravitational potential energy}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.3.4}Elastic potential energy}{15}{}%
-\contentsline {paragraph}{\numberline {4.1.3.5}Mechanical Energy}{15}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}Systems}{16}{}%
+\contentsline {subparagraph}{Fundamental Theorem of Calculus part 1}{10}{}%
+\contentsline {subparagraph}{Average Value}{10}{}%
+\contentsline {paragraph}{\numberline {2.3.2.2}Unit 6}{11}{}%
+\contentsline {subparagraph}{Fundamental Theorem of Calculus Part 2}{11}{}%
+\contentsline {subparagraph}{Logarithms}{11}{}%
+\contentsline {subparagraph}{Areas between Curve}{12}{}%
+\contentsline {subparagraph}{Volume given cross section}{12}{}%
+\contentsline {subparagraph}{Volume: the disc method}{13}{}%
+\contentsline {subparagraph}{Volume: Cylindrical shells}{13}{}%
+\contentsline {subparagraph}{Arc length}{14}{}%
+\contentsline {paragraph}{\numberline {2.3.2.3}Unit: 7}{15}{}%
+\contentsline {section}{\numberline {3}Computer Science}{16}{}%
+\contentsline {subsection}{\numberline {3.1}Vector}{16}{}%
+\contentsline {subsection}{\numberline {3.2}bit shit}{16}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}bitwise operators to stop forgetting}{16}{}%
+\contentsline {paragraph}{\numberline {3.2.1.1}bitwise operator quirks?}{16}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}ieee 754}{16}{}%
+\contentsline {paragraph}{\numberline {3.2.2.1}overview}{16}{}%
+\contentsline {paragraph}{\numberline {3.2.2.2}nitty griddy}{17}{}%
+\contentsline {subsection}{\numberline {3.3}optimizations}{17}{}%
+\contentsline {section}{\numberline {4}physics}{17}{}%
+\contentsline {subsection}{\numberline {4.1}Unit 4}{17}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Work}{17}{}%
+\contentsline {paragraph}{\numberline {4.1.1.1}definition}{17}{}%
+\contentsline {paragraph}{\numberline {4.1.1.2}rules}{17}{}%
+\contentsline {paragraph}{\numberline {4.1.1.3}equations}{17}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}power}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.2.1}definition}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Energy}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.3.1}Energy}{18}{}%
+\contentsline {subparagraph}{Work Energy Theorem}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.3.2}Kinetic energy}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.3.3}Gravitational potential energy}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.3.4}Elastic potential energy}{18}{}%
+\contentsline {paragraph}{\numberline {4.1.3.5}Mechanical Energy}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Systems}{19}{}%
