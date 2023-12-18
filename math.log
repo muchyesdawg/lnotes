@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  17 DEC 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  17 DEC 2023 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,7 +523,14 @@ Package amsthm Warning: Unknown theoremstyle `theorem' on input line 20.
 \c@theorem=\count330
 \c@exmat=\count331
 \c@definition=\count332
-No file math.aux.
+(math.aux
+
+LaTeX Warning: Label `eq:volDiscDx' multiply defined.
+
+
+LaTeX Warning: Label `eq:volCylDX' multiply defined.
+
+)
 \openout1 = `math.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -540,7 +547,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
-(H:\OProgramFiles\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (H:\OProgramFiles\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
 \scratchdimen=\dimen301
@@ -568,19 +575,18 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (H:\OProgramFiles\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-No file math.toc.
+) (math.toc [1
+
+{C:/Users/Markus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `math.toc'.
 
-[1
-
-{C:/Users/Markus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+ [2]
 Overfull \hbox (2.22285pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10 For the entire part of Computer Science, Chapter 3, the variable naming standard
  []
 
-[2]
+[3]
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -631,7 +637,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-[3]
+[4]
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -1052,49 +1058,28 @@ Overfull \hbox (6.86176pt too wide) in paragraph at lines 97--99
 \OT1/cmr/m/n/10 Vectors have different definitions depending on the discipline, Math and Computer
  []
 
-[4] [5] [6] [7] [8]
-
-LaTeX Warning: Reference `subp:FTCpt1' on page 9 undefined on input line 216.
-
-
-LaTeX Warning: Reference `eq:avgROCF' on page 9 undefined on input line 217.
-
-[9]
-
-LaTeX Warning: Reference `thm:FTCpt2' on page 10 undefined on input line 231.
-
-
-LaTeX Warning: Reference `thm:FTCpt2' on page 10 undefined on input line 232.
-
-[10]
-
-LaTeX Warning: Reference `eq:ABtwnCurvdy' on page 11 undefined on input line 268.
-
-[11] [12] [13] [14] [15] [16] [17] [18] (math.aux)
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] (math.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-11-01>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30793 strings out of 474704
- 788302 string characters out of 5758002
+ 30802 strings out of 474704
+ 788507 string characters out of 5758002
  1947547 words of memory out of 5000000
- 52399 multiletter control sequences out of 15000+600000
+ 52404 multiletter control sequences out of 15000+600000
  572051 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,740b,2119s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Markus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (18 pages, 277458 bytes).
+Output written on math.pdf (19 pages, 279983 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
