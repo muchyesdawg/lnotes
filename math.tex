@@ -289,7 +289,7 @@
                     or in terms of y($R(y)$ should be $R(x)$ in terms of $y$):
                     \begin{equation}
                         V=\pi \int_{c}^{d}R(y)^2dy
-                        \label{eq:volDiscDx}
+                        \label{eq:volDiscDy}
                     \end{equation}
                     for something that is to be in the shape of washers, then the following two functions can be used.
                   \\\textit{Given:}
@@ -310,7 +310,6 @@
                         V=\pi\int_c^d (R(y)-c)^2-(r(y)-c)^2dy
                     \end{equation}
                     setting both functions in terms of y.
-            \paragraph{Unit 7}
 
                     %\begin{definition}[Fundamental Theorem of Calculus Pt.2]
                      %   Suppose $f$ is coninuous on $[\alpha, \beta]$. if $g(x)=\int_{\alpha }^{max}$
@@ -334,7 +333,7 @@
                     \end{center}
                     A way to achieve this is
                     \begin{equation}
-                        \label{eq:volCylDX}
+                        \label{eq:volCylDY}
                         V=2\pi\int_c^d(y-c)f(y)dx
                     \end{equation}
                 \subparagraph{Arc length}
@@ -353,20 +352,28 @@
             \paragraph{Unit: 7, integration techniques}
             \label{par:Unit-7}%scary
                 \subparagraph{integration by parts}
-                \begin{itemize}
-                    \item Choose choose two terms, one that is easy to differentiate $u$, the other integrate $v$.
-                    \begin{description}
-                        \item[Note:] there are guidelines to choosing $u$ and $v$. The priority to choosing $v$ is as follows:
-                        \begin{enumerate}
-                            \item Logarithmic
-                            \item Inverse Trigonometry
-                            \item Algebraic
-                            \item Trigonometry
-                            \item Exponential
-                        \end{enumerate}
-                    \end{description}
-                    
-                \end{itemize}
+                    Given that $u$ and $v$ are functions of x, 
+                    \begin{itemize}
+                        \item Choose choose two terms, one that is easy to differentiate $u$, the other integrate $v$.
+                        \begin{description}
+                            \item[Note:] there are guidelines to choosing $u$ and $v$. The priority to choosing $v$ is as follows:
+                            \begin{enumerate}
+                                \item Logarithmic
+                                \item Inverse Trigonometry
+                                \item Algebraic
+                                \item Trigonometry
+                                \item Exponential
+                            \end{enumerate}
+                        \end{description}
+                        \item knowing $u$ and $v$, we can use Integration by parts. 
+                        \begin{definition}
+                            \item[Steps:] these are the following steps to integration by parts:
+                                         \begin{equation}
+                                            \label{eq:integratebyParts}
+                                            \int uvdx = u\int vdx - \int (\dfrac{du}{dx})(\int vdx)dx
+                                         \end{equation}
+                        \end{definition}
+                    \end{itemize}
 \pagebreak
 \section{Computer Science}\label{sec:csSec}
 will be using c++ for every example

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  17 DEC 2023 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.7)  17 DEC 2023 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,14 +523,7 @@ Package amsthm Warning: Unknown theoremstyle `theorem' on input line 20.
 \c@theorem=\count330
 \c@exmat=\count331
 \c@definition=\count332
-(math.aux
-
-LaTeX Warning: Label `eq:volDiscDx' multiply defined.
-
-
-LaTeX Warning: Label `eq:volCylDX' multiply defined.
-
-)
+(math.aux)
 \openout1 = `math.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -1063,21 +1056,17 @@ Overfull \hbox (6.86176pt too wide) in paragraph at lines 97--99
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 30802 strings out of 474704
- 788507 string characters out of 5758002
- 1947547 words of memory out of 5000000
- 52404 multiletter control sequences out of 15000+600000
+ 30807 strings out of 474704
+ 788619 string characters out of 5758002
+ 1948547 words of memory out of 5000000
+ 52409 multiletter control sequences out of 15000+600000
  572051 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,107p,740b,2119s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Markus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><H:/OProgramFiles/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (19 pages, 279983 bytes).
+Output written on math.pdf (19 pages, 280368 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

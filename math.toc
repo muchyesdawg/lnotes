@@ -26,10 +26,9 @@
 \contentsline {subparagraph}{Areas between Curve}{12}{}%
 \contentsline {subparagraph}{Volume given cross section}{12}{}%
 \contentsline {subparagraph}{Volume: the disc method}{13}{}%
-\contentsline {paragraph}{\numberline {2.3.2.3}Unit 7}{13}{}%
 \contentsline {subparagraph}{Volume: Cylindrical shells}{13}{}%
 \contentsline {subparagraph}{Arc length}{14}{}%
-\contentsline {paragraph}{\numberline {2.3.2.4}Unit: 7, integration techniques}{15}{}%
+\contentsline {paragraph}{\numberline {2.3.2.3}Unit: 7, integration techniques}{15}{}%
 \contentsline {subparagraph}{integration by parts}{15}{}%
 \contentsline {section}{\numberline {3}Computer Science}{16}{}%
 \contentsline {subsection}{\numberline {3.1}Vector}{16}{}%
