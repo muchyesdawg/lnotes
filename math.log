@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.8)  11 JAN 2024 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.8)  17 JAN 2024 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1626,9 +1626,9 @@ Overfull \hbox (6.86176pt too wide) in paragraph at lines 93--95
  []
 
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-Overfull \hbox (18.08461pt too wide) in paragraph at lines 378--380
-[] [] \OT1/cmr/bx/n/10 differential equations[] \OT1/cmr/m/n/10 differential eq
-uations are equations that have unknown
+Overfull \hbox (6.95137pt too wide) in paragraph at lines 379--381
+[]\OT1/cmr/bx/n/10 Definition 2.3.2.4.1 \OT1/cmr/m/n/10 (differential equation)
+\OT1/cmr/bx/n/10 . []\OT1/cmr/m/n/10 Differential Equations are equations
  []
 
 [16] [17] [18] [19] [20] (./math.aux)
@@ -1636,10 +1636,6 @@ uations are equations that have unknown
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  25935 strings out of 475729
@@ -1667,7 +1663,7 @@ asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/202
 ve/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
 xlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
 l/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on math.pdf (20 pages, 262463 bytes).
+Output written on math.pdf (20 pages, 262945 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams

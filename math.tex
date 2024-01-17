@@ -22,7 +22,7 @@
 \renewcommand{\qedsymbol}{$QED$}
 \newtheorem{exmat}{Example}[subsection]
 \theoremstyle{definition}
-\newtheorem{definition}{Definition}
+\newtheorem{definition}{Definition}[paragraph]
 
 \begin{document} % Begin document content
 \maketitle
@@ -375,7 +375,10 @@
             \label{par:Unit-8}
                 \subparagraph{differential equations}
                 \label{subp:differential-e}
-                    differential equations are equations that have unknown function and one or more if its derivative. the order of the differential equation is the order of the 
+                    \begin{definition}[differential equation]
+                        Differential Equations are equations that have unknown function and one or more if its derivative. the order of the differential equation is the order of the differential equation.
+                        Another way of understanding diffeqs are:\\given an equation, containing two variables and derivatives within them, the goal is to create a sort of equation that fulfills the differential equation and another condition at all times.
+                    \end{definition}
 \pagebreak
 \section{Computer Science}\label{sec:csSec}
 will be using c++ for every example
